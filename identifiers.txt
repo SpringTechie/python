@@ -1,0 +1,61 @@
+Used to represet a variable
+a = 12;
+a-z, A-Z,0-9,_
+length limit  no length limit to declare any variable .
+variable names always should be meaingful.
+variable names always should starts with small letters
+if we have two words in variable names, then scecond word should starts with uppercase.
+x = 10 public
+_x = 10 protected
+__x = 10 private
+__x__ = 10 magic variable
+To define multiple variable in oneline x,y,z = 23,45,45,Remember number variable should match with number of values.
+To define multiple variable with same value x=y=z = 23v
+variable names are case sensitive
+global Variable:
+It is created outside of all the functions.
+
+Local variable: It is created inside the function.
+To convert any local variable to global we need to declare local variable as global : global x
+
+
+Reserved Words:
+Inbuild words that specify some action
+True,False, None (absence of value or no value is present)
+if , elif, else
+and or is not
+while for break continue return yield in 
+try except finally raise assert 
+import from as class def pass 
+global lambda del with non local
+We should not use Reserved as variable,class ,function names.
+
+To see keywords
+code:  
+import keyword
+keyword.kwlist
+
+Data Type: 14 data types , everthing in python is object type.
+It tells the type of data we are storing inside a variable.
+int 
+float 
+complex
+bool
+str 
+list 
+tuple 
+set
+frozenset 
+dict
+bytes
+bytearray
+range
+None
+
+Numbers:
+int : 
+float 
+complex: 3+4j, 2+5j
+
+Type Conversion : process of converting one type to anothe type.
+we can convert numerical string to integer, but we can't convert an alphabetic string to int.

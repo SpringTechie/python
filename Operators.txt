@@ -1,0 +1,18 @@
+Operators are used to some operations on operands(Variables)
+
+a+b; operand Operator operand
+
+Python Operators
+1.Arithematic Operator: +,-,*,/,%, **, // 
+2.AssignMent Operator: =, +=,-=,*=,/=,%=,//=,**=,&=,|=,>>=,<<=
+3.Comparision Operator : ==(checks the content),!=,<,>,<=,>=
+4.Identity Operator : is(this will checks the memory location) , is not 
+
+5.logical Operator : and , or, not
+  and        or       not     xor
+  0 0 = 0   0 0 = 0   0 = 1   0 0 = 0
+  0 1 = 0   0 1 = 1   1 = 0   1 0 = 1
+  1 0 = 0   1 0 = 1           0 1 = 1
+  1 1 = 1   1 1 = 1           1 1 = 0
+6.Membership Operator : used to check whether value is present in collection or sequence
+7.Bitwise Operator: &(and),|(or),^(xor),~(NOT),<<(left shift),>>(Right shift)

@@ -1,0 +1,3 @@
+if(condition) :  condition is true then this block is executed. It exists or written solely
+elif(condition) : condition is true then this block is executed.
+else: finally this will be eexcuted, if above both are failed.

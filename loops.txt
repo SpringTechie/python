@@ -1,0 +1,9 @@
+loops is used to iterate over a collection.
+for loop: if we know exact number of iterations.
+while loop: if we dont know exact number of iterations.
+
+Scenario: 
+1.I want print even btw 1 to 100 : Use for loop.
+2. I want print 100 even numbers.
+
+

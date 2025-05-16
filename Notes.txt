@@ -1,0 +1,28 @@
+To run python file use this command :
+py file_name.py
+
+General Purpose and High Level programming.
+Guido Van Rossum - 1991.
+Simple and easy to write.
+We can develop the AI,ML,IOT.
+
+Features of python.
+Simple and Easy to code:
+Concise Code.
+1.Platform Independent : WORA (Write Once Run Anywhere)
+Due the PVM python became Platform Independent.
+PVM is Platform Depedenet.
+Portable:
+Dynamically typed : we no need to declare type of value ,that is storing inside a variable while creating.
+a = 12;
+Both procedure and OOP's oriented and scripting lang.
+
+Interpreter : It does the line by line execution.
+
+Extensible : We can use other lang code inside the python. to improve the performance
+Extensive library : It has more inBuilt library.
+Embebeded: meaing we can use python inside other lang.
+
+To conevrt High Level programming to low Level programming we can Interpreter.
+
+.py is the extension for python files.
