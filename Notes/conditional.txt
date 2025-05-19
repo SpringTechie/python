@@ -1,0 +1,13 @@
+if(condition) :  condition is true then this block is executed. It exists or written solely
+elif(condition) : condition is true then this block is executed.
+else: finally this will be eexcuted, if above both are failed.
+
+
+match : 
+used to replace multiple if else statements
+Here expression is evaluted once
+The value of the expression is compared with the values of each case.
+If there is a match, the associated block of code is executed.
+use match statement when there is group of similar constants.
+example: weekdays, months, imageTypes, video formats, gender.
+

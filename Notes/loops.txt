@@ -1,0 +1,21 @@
+loops is used to iterate over a collection.
+for loop: if we know exact number of iterations.
+while loop: if we dont know exact number of iterations.
+in python we can write else block for and while loop.
+syntax:
+for ():
+    
+else :
+
+this else block is executed after the for loop conditon fails.
+
+How to break and skip one iteration in loops.
+break : is  used to break the complete loop. Write the break only inside the if statement.
+continue: is used to skip the particular iteration.
+Note: break statement breaks entire loop but continue only skips the particular iteration.
+
+Scenario: 
+1.I want print even btw 1 to 100 : Use for loop.
+2. I want print 100 even numbers. : Use While loop.
+
+

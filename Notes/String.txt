@@ -1,0 +1,27 @@
+String:
+It is one data type.
+it stores a group of characters inside the single single,double,threeble quotes.
+threeble quptes used to write multi line String in python.
+1.To find the length of String use : len(pass String)
+2.in : used to check whether specified string is present or not inside a string.
+3.slicing in String: s[startIndex:endIndex] : endIndex is excluded. 
+                     Always startindex should be small than endIndex.
+4.Python supports both positive and negative index. 
+  positive index starts from  0
+  negative index starts from -1.
+5. string methods
+   to concat two String use +
+   1.upper(): converts into upper case.
+
+Input: "Arun Kumar How Are You"
+o/p : A,K,H,A,Y
+
+input: "Arun123 Kumar How145 Are You"
+o/p: numeric number
+
+input: "Arun Kumar How Are You"
+o/p: [Arun,Kumar,How,Are,You]
+
+input:"Arun Kumar How Are You"
+o/p: even indexed chars, and if it is space dont print it.
+
