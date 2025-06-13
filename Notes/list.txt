@@ -1,0 +1,20 @@
+Python does not support inbuilt arrays.
+In python we have list data structure to support array.
+What is List?
+It is ordered
+It is changeable
+List is used to store a group of values.
+It is represented as [].
+In list we can store any type values either same type or diff types off values.
+list = [] # empty list
+list1 = [1,2,3,4] # with values.
+list2= [1,"ar",1.8,'c'] # with diff type values.
+
+list elements are ordered and modifiable.
+elements are always inserted at the end.
+List allows duplicate values.
+we have list constructor to create a list object.
+ll = list(("arun","pawan"))
+
+How to change or update values of list.
+

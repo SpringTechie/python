@@ -48,15 +48,26 @@ s  ='  Arun,kumar,yadav  '
 # y = s.replace("r","k")
 # print(s.replace("r","k"))
 
-print("a".isalpha())
-print("1".isdigit())
-print("ar".isalnum())
-print("123".isnumeric())
-print("A".isupper())
-print("ARUN".islower())
-print("Arun Kumar".istitle())
-print(" ".isspace())
+# print("a".isalpha())
+# print("1".isdigit())
+# print("ar".isalnum())
+# print("123".isnumeric())
+# print("A".isupper())
+# print("ARUN".islower())
+# print("Arun Kumar".istitle())
+# print(" ".isspace())
+
+# input= "Arun Kumar How Are You"
+# # for x in input:
+# #     if(x.isupper()):
+# #         print(x)
+
+# for i in range(0,len(input)):
+#     if(i%2==0 and (not(input[i].isspace()))):
+#         print(input[i])
 
 
+s = "Arun"
+print(s[200])
 
 

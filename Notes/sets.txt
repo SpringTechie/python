@@ -1,0 +1,43 @@
+It stores a collection of elements. To maintain unique data.
+feature:
+1.Unorderd.
+2.Unchangable or unmodifiable
+3.Unindexed.
+4.Not allows duplicates
+
+We represent set with {} braces. 
+In sets 1 and True will considerd as same.
+In sets 0 and False will considerd as same.
+We have set constructor = set()
+we dont have any index concept in set object
+to access the elements from set we can do by looping.
+to check wether given element is present inside a set or not =   x in s or x not in 
+we cant modify the existing elements inside the set , but we can add the elements.
+
+if we want add a group of elements to set  use this method: update(collection)
+
+to remove any element from set: remove(element) method or use discard(element)
+
+s.pop() # by this method we can remove some random value or element.
+
+to remove all the elements from set: clear() but still set object is exist
+to remove all the elements from set and remove the object from memory use : del 
+
+union(): used to combine elements from both the sets.
+intersection(): copy common elements from both the set, but it returns new set object.
+s1.intersection_update(s2): copy common elements from both the set and update the first set object.
+difference(): method returns new set that will contain the items from first set that are not present in second set.
+              returns new set object.
+s2.difference_update(s1): same difference but it wont create new set object.
+
+s3 = s2.symmetric_difference(s1) : return new set with non common elements.
+s2.symmetric_difference_update(s1) : returns first set with non common elements.
+s1.issubset(s2): return true if all the elements inside a first is present in second set.
+s1 = {3,4,5,6}
+s2 = {3,4,5,6}
+
+print(s1.issuperset(s2)) : return true if all the elements inside a second set  is present in first set.
+s1.isdisjoint(s2) : return true if no element of first set  is present inside the second set.
+
+
+

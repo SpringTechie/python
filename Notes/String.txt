@@ -23,5 +23,5 @@ input: "Arun Kumar How Are You"
 o/p: [Arun,Kumar,How,Are,You]
 
 input:"Arun Kumar How Are You"
-o/p: even indexed chars, and if it is space dont print it.
+o/p: even indexed characters, and if it is space dont print it.
 
