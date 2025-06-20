@@ -1,0 +1,60 @@
+Dictinaries:
+This data structure stores data as key value pair.
+Person:
+{
+    "id":1,
+    "name":"arun",
+    "age":23,
+    "lucky_number":23
+
+}
+All keys inside a dic should Strings.
+
+properties:
+1.Ordered
+2.Changeble
+3.won't allow duplicates.(it wont allow duplicates keys, but allow duplicates value.)
+Represented by {}. type of this is "dict"
+To find the length we have len()
+To create we have constructor: dict()
+
+To access the any entry from Dictinaries we have two ways:
+1.dic_object["key"]
+2.dic_object.get("key")
+
+To get all the keys from Dictinaries : dic_object.keys()
+To get all the values from Dictinaries : dic_object.values();
+
+
+updating:
+to add any key to existing dic we have use = dic_object["key"]= "value"
+to update any key inside the dic we have use = dic_object["key"]= "value"
+
+if key present it will update, else it adds new key.
+
+we have update method to update any value.
+dic_object.update({key:value})
+
+Removing:
+to remove pop("key") : removes specified key.
+to remove last inserted item from dic: popitem();
+To remove all entries of dic : clear() , still object is present without any data
+To remove the object from memory: del dic_object. It removes object from memory
+
+To check any key present inside a dic we use : in operator
+
+
+Nested  Dictinaries:
+person = {
+    "id":1, 
+    "name":"arun", 
+    "age":23,
+    "lucky_number":56,
+    "hobbies": ["listeing music","playing chess"],
+    "exp": {
+        "wipro": 2,
+        "TCS": 3
+    }
+
+}
+

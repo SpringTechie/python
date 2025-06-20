@@ -17,10 +17,15 @@
 # s.clear() :
 # del s
 
-s1 = {7,8,9,0}
-s2 = {3,4,5,6}
+# s1 = {7,8,9,0}
+# s2 = {3,4,5,6}
 
-print(s1.isdisjoint(s2))
+# print(s1.isdisjoint(s2))
+
+
+s = "arun"
+i = 3
+print(type(i))
 
 
 
