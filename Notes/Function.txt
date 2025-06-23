@@ -1,0 +1,28 @@
+A function is a block of code where we write a common and non-repeatable code.
+By using function we can perform a specific task or action.
+
+syntax : def function_name(parameters):
+                    pass
+It is only executed when it is called.
+
+Arbitary Arguments *args:
+
+If we dont know number of Arguments to any function then use *args in parameters place.
+This way the function recives tuple of Arguments.
+
+Keyword Arguments:
+We can also send Arguments with key value pair.
+The order of Arguments is not a matter.
+
+kwargs: Keyword Arguments:
+If we dont know how many Keyword Arguments we have send , then kwargs.
+synrax : function_name(**args) // args = dic.
+to access the values from dic we use dic[key]
+
+if we want to assign any defualt value if use wont pass any value to function
+function_name(country="USA")
+
+
+
+
+
