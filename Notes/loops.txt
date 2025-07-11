@@ -17,5 +17,3 @@ Note: break statement breaks entire loop but continue only skips the particular 
 Scenario: 
 1.I want print even btw 1 to 100 : Use for loop.
 2. I want print 100 even numbers. : Use While loop.
-
-

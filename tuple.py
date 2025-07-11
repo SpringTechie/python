@@ -14,13 +14,15 @@
 # print(t)
 
 # unpacking
-t=(1,2,3,4,5,6,3)
-# (odd,even,*remain) = t
+t=(1,2,3,45,60,3)
+(odd,even,*remain) = t
 # print(remain)
 
-# print(t.index(4))
+# print(t.index(600)) # index(60)
+# print(t[200])
 
 print(t.count(3))
+
 
 
 

@@ -8,11 +8,11 @@
 # ll = list(("arun","pawan"))
 # to access the list values based on index.
 # print(list1[0])
-# # negative index
+# negative index
 # print(list1[-1])
 
-l = [5,3,4,12,34,56]
-# range(starting_value,ending_value,step): if we dont speicify the step value bydefaut range function increments value by 1
+l = [5,3,4,12,34,56] # 5 insert(2,60)// 5,3,60,4,12,34,56
+# range(starting_value,ending_value,step): if we dont speicify the step value by defaut range function increments value by 1.
 
 # for i in range(0,len(l)): # 0 to 6(exlcuded)
 #     print(l[i])
@@ -24,30 +24,33 @@ l = [5,3,4,12,34,56]
 # for i in range(0,100,2):
 #     print(i)
 #l = [5,3,4,12,34,56]
-#   -6 -5-4-3 -2 -1
+#    -6 -5-4-3 -2 -1
 # slicing
-# print(l[2:5]) 
-# print(l[2:]) 
-# print(l[:5])
-# print(l[:]) 
+# print(l[2:5])  // 2 to 5-1
+# print(l[2:])  // 2 to end
+# print(l[:5])  // 0 to 5-1
+# print(l[:])   // 0 to len-1
 # print(l[-5:-1]) # forward direction
 # print(l[-2:-5:-1]) # backword direction
 # slicing : [start:stop:direction] = if we dont provide any value for direction then it consider or slice in forward direction , if we provide direction = -1 then it consider the backword direction
 
+# updating the list values
 # l[2]= 34 # to replace a single value.
 # l[2:4]= [66,77] # to replace a range of values.
 # if we want to add new element at specified index , and the old element should not be replaced.
 # l.insert(2,88)
 # to add new value to existing list
-#l.append(6)
+# l.append(6) adds the element at last position
 # to concat two list
 
 #print(l)
 
 # l1 = [1,2,3]
 # l2 = [4,5,6]
-# # l1+l2
+# l3 = l1+l2
+# print(l3)
 # l1.extend(l2) # add at the end
+# print(l1)
 # l1.append(l2) # appends the list at the end of list as single value.
 # print(l1)
 
@@ -57,7 +60,7 @@ l = [5,3,4,12,34,56]
 
 # ll = [1,2,3,4,5,6]
 
-# even_list = [x for x in range(0,100) if(x%2==1)]
+# even_list = [x for x in range(0,100) if(x%2==0)]
 # print(even_list)
 
 # by usinng list compreshion 
@@ -68,14 +71,7 @@ l = [5,3,4,12,34,56]
 # ll.sort(reverse=True)
 # print(ll)
 
-ll = [1,2,3,4]
-print(ll[10])
+# ll = [1,2,3,4]
+# print(ll[10])
 
-
-
-
-
-
-
-
-
+ll = list(3,4)

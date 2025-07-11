@@ -50,11 +50,15 @@
 # recursion: A method calling itself
 
 def myFunc(x):
-    print(x)
-    if(x<10):
+      global y
+      y = 2
+      
+    
+      if(x<10):
         myFunc(x+1)
 
 myFunc(1)
+print(y)
 
 
 

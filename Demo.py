@@ -55,4 +55,8 @@
 # 2nd way to remove duplicates
 # dr = set(l)
 # print(dr)
-        
+
+for x in range(0,10):
+    print(x)
+else:
+    print("else")

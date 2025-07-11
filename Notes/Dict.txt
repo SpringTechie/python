@@ -2,7 +2,7 @@ Dictinaries:
 This data structure stores data as key value pair.
 Person:
 {
-    "id":1,
+    "id" : 1,
     "name":"arun",
     "age":23,
     "lucky_number":23

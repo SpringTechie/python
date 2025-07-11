@@ -2,7 +2,9 @@ Python does not support inbuilt arrays.
 In python we have list data structure to support array.
 What is List?
 It is ordered
-It is changeable
+It is changeable(mutable)
+Allows duplicates
+Indexed
 List is used to store a group of values.
 It is represented as [].
 In list we can store any type values either same type or diff types off values.

@@ -16,28 +16,18 @@ then we get one error called IndexError.
 
 Unpacking= We can extract the tuple values into a individual variables
 
-if the number of =variables is less than number of values.you can add * to variable so it will store remiamiing values as list.
+if the number of variables is less than number of values.you can add * to variable so it will store remiamiing values as list.
 t=(1,2)
 (odd,even) = t
 
 t=(1,2,3,4,5,6)
 (odd,even,*remain) = t
 here 1 is assinged to variable odd and 2 is assinged to even
-Note: Number variables must match the number of values inside a tuple
-to find index of element inside a tuple we have index(element) method
+Note: Number of variables must match the number of values inside a tuple
+to find index of element inside a tuple we have index(element) method.
 if the specified element is not present inside the tuple we get error called ValueError.
 example:ValueError: tuple.index(x): x not in tuple
-
-
-
 
 1,2,3,4,5,6,7,5,6 = input type = list 
 
 convert input to set = 1 2 3 4 5 6 7
-
-[
-{
-    empId-5, emoName, empSal
-}
-
-]
